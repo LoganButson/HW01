@@ -1,3 +1,3 @@
-cat wc - l /etc/
-cat /etc/ssh/ssh_config | sort | unique | grep IdentityFile | wc -l
+ls /etc/ | wc - l
+cat /etc/ssh/ssh_config | grep IdentityFile | sort | uniq | wc -l
 cd ~; du -hs
